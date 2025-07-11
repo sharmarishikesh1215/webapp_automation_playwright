@@ -1,0 +1,14 @@
+{
+  "name": "webapp_automation_playwright",
+  "version": "1.0.0",
+  "description": "A repository to test web application using playwright",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.54.0",
+    "@types/node": "^24.0.13"
+  }
+}
