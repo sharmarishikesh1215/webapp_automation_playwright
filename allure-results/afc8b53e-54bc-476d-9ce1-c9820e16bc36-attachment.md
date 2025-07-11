@@ -1,0 +1,54 @@
+# Page snapshot
+
+```yaml
+- img "autochek-logo"
+- img "flag"
+- link "HOME":
+  - /url: /dealer/dashboard
+- text: INVENTORY
+- img
+- text: SELL
+- img
+- text: MARKETING
+- img
+- text: SUPPORT
+- img
+- combobox
+- text: English
+- button "bell-icon 2 7":
+  - img "bell-icon"
+  - superscript: 2 7
+- button "logout-icon":
+  - img "logout-icon"
+- button
+- main:
+  - main:
+    - heading "About You" [level=1]
+    - img "Medal"
+    - button "My Benefits" [disabled]
+    - heading "4x4 Autosolution" [level=2]
+    - paragraph: New Dealer
+    - 'heading "ID: 674" [level=2]'
+    - paragraph: "Joined: October 2021"
+    - heading "30 POINTS" [level=2]
+    - paragraph: Available loan limit
+    - heading "KSh26,600,000" [level=2]
+    - img "Get Pre-Approved"
+    - button "Get Pre-approved"
+    - button "Use loan calculator"
+    - heading "Unlock a dealership level to enjoy benefits" [level=4]
+    - paragraph: To enjoy benefits, you need to be on any of these dealership levels
+    - img "medal"
+    - text: BRONZE (LEVEL 1) DEALER Sell 1 car (200PTS) / month to unlock
+    - img "medal"
+    - text: SILVER (LEVEL 2) DEALER Sell 3 cars (600 PTS)/month to unlock
+    - img "medal"
+    - text: GOLD (LEVEL 3) DEALER Sell 6 cars (1200)/month to unlock
+    - img "medal"
+    - text: PLATINUM (LEVEL 4) DEALER Sell 12 cars (2400 PTS)/month to unlock
+    - main
+  - button "plus-icon Create New":
+    - img "plus-icon"
+    - text: Create New
+- text: FRANCHISE ADMIN
+```
