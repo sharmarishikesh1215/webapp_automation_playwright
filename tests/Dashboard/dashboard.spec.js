@@ -26,3 +26,19 @@ test.beforeEach("Login into dashboard", async ({ page }) => {
 test("Dashboard has Autochek logo", async ({ page }) => {
   await expect(page.locator('(//img[@alt="autochek-logo"])[1]')).toBeVisible();
 });
+
+test("Get Pre-approved button is redirecting to correct URL", async ({ page }) => {
+  await page.click('//button[text()="Get Pre-approved"]');
+  await expect(page).toHaveURL(
+    "https://dealerplus.staging.myautochek.com/prequalification"
+  );
+});
+
+test("Use loan calculator button is redirecting to correct URL", async ({ page }) => {
+  await page.click('//button[text()="Use loan calculator"]');   
+  await expect(page).toHaveURL(
+    "https://dealerplus.staging.myautochek.com/loan-calculator"
+  );
+});
+
+
